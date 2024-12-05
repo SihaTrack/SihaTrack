@@ -1,0 +1,21 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+
+    <style name="Base.Theme.SihaTrack_v_1" parent="Theme.Material3.DayNight.NoActionBar">
+
+        <item name="colorPrimary">@color/app_color2</item>
+        <item name="colorPrimaryVariant">@color/app_color1</item>
+        <item name="colorOnPrimary">@color/app_color1</item>
+
+
+        <item name="colorControlActivated">@color/app_color1</item>
+        <item name="hintTextColor">@color/app_color1</item>
+
+
+<!--        <item name="colorError">@color/errorColor</item>-->
+
+
+<!--        <item name="colorSurface">@color/surfaceColor</item>-->
+    </style>
+
+    <style name="Theme.SihaTrack_v_1" parent="Base.Theme.SihaTrack_v_1" />
+</resources>
