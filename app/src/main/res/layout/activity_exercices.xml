@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ui.userActivities.exercices.ExercicesActivity">
+
+
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:padding="16dp">
+
+        <TextView
+            android:id="@+id/exerciceTitle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Exercices pour prévenir les crises cardiaques"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            android:layout_marginBottom="20dp"/>
+
+        <TextView
+            android:id="@+id/exerciceDescription"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Exercice 1 : Marche rapide (10 minutes)"
+            android:textSize="16sp"
+            android:layout_marginBottom="10dp"/>
+
+        <Button
+            android:id="@+id/btnShowExercice1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Voir les détails"
+            android:layout_marginBottom="20dp"/>
+
+        <TextView
+            android:id="@+id/exercice2Title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Exercice 2 : Squats (3 séries de 10 répétitions)"
+            android:textSize="16sp"
+            android:layout_marginBottom="10dp"/>
+
+        <Button
+            android:id="@+id/btnShowExercice2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Voir les détails"
+            android:layout_marginBottom="20dp"/>
+
+        <TextView
+            android:id="@+id/exercice3Title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Exercice 3 : Respiration profonde (5 minutes)"
+            android:textSize="16sp"
+            android:layout_marginBottom="10dp"/>
+        <Button
+            android:id="@+id/btnShowExercice3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Voir les détails"
+            android:layout_marginBottom="20dp"/>
+    </LinearLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

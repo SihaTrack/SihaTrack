@@ -111,6 +111,7 @@ public class MyDataBaseHelper extends SQLiteOpenHelper {
             String password = cursor.getString(cursor.getColumnIndexOrThrow(COLUMN_PASSWORD));
 
             user = new User(firstname, lastname, date_birth, gender, email, password);
+
         }
 
         if (cursor != null) {
